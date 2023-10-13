@@ -1,0 +1,12 @@
+
+
+for line in lines:
+    line = line.strip()
+
+    length = len(line)
+
+    compartment_1 = line[:length // 2]
+    compartment_2 = line []
+
+    print(line)
+    print(compartment_1)
