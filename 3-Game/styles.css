@@ -1,0 +1,38 @@
+/* centers the game on the screen */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.game-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+.option {
+    text-align: center;
+    margin: 10px;
+}
+
+/* hover effect */
+.option:hover {
+    transform: scale(1.1);
+}
+
+
